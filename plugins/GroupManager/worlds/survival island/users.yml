@@ -1,0 +1,31 @@
+users:
+  Arrowman676:
+    group: 'Regulars'
+    info:
+      build: true
+    permissions: []
+  eddi4:
+    group: 'Regulars'
+    info:
+      build: true
+    permissions: []
+  Jakeytech:
+    group: 'Regulars'
+    info:
+      build: true
+    permissions: []
+  Sneaky_Pete_:
+    group: 'Regulars'
+    info:
+      build: true
+    permissions: []
+  TheMuteUSer:
+    group: 'Regulars'
+    info:
+      build: true
+    permissions: []
+  loadedsith:
+    group: 'Regulars'
+    info:
+      build: true
+    permissions: []

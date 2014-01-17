@@ -1,0 +1,31 @@
+users:
+  Arrowman676:
+    group: 'Everyone'
+    info:
+      build: true
+    permissions: []
+  eddi4:
+    group: 'Everyone'
+    info:
+      build: true
+    permissions: []
+  Jakeytech:
+    group: 'Everyone'
+    info:
+      build: true
+    permissions: []
+  Sneaky_Pete_:
+    group: 'Everyone'
+    info:
+      build: true
+    permissions: []
+  TheMuteUSer:
+    group: 'Everyone'
+    info:
+      build: true
+    permissions: []
+  loadedsith:
+    group: 'Administrators'
+    info:
+      build: true
+    permissions: []

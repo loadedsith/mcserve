@@ -1,0 +1,17 @@
+groups:
+  Everyone:
+    default: true
+    info:
+      prefix: '&f'
+      suffix: ''
+      build: true
+    permissions: []
+  Moderators:
+    default: false
+    info:
+      prefix: '&1'
+      suffix: ''
+      build: true
+    inheritance:
+      - 'Regulars'
+    permissions: []

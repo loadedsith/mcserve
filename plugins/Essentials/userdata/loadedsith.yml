@@ -1,0 +1,28 @@
+timestamps:
+  login: 1389935123259
+  logout: 1389935462939
+  lastteleport: 1389934356025
+ipAddress: 67.184.70.2
+logoutlocation:
+  world: Survival Island
+  x: -533.9443695701232
+  y: 58.0
+  z: 598.3087990008761
+  yaw: -228.45052
+  pitch: -4.199982
+afk: false
+lastlocation:
+  world: Survival Island
+  x: 202.76007133744722
+  y: 66.0
+  z: -304.03823863325204
+  yaw: -327.60043
+  pitch: 21.450006
+homes:
+  home:
+    world: Survival Island
+    x: -532.5
+    y: 58.0
+    z: 599.5
+    yaw: -7.200603
+    pitch: 17.099985

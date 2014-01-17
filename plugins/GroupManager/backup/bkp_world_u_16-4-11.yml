@@ -1,0 +1,6 @@
+users:
+  loadedsith:
+    group: 'Administrators'
+    info:
+      build: true
+    permissions: []

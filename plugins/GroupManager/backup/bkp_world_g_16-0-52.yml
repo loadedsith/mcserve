@@ -1,0 +1,40 @@
+groups:
+  Everyone:
+    default: true
+    info:
+      prefix: '&f'
+      suffix: ''
+      build: true
+    permissions: []
+  Regulars:
+    default: false
+    info:
+      prefix: '&a'
+      suffix: ''
+      build: true
+    inheritance:
+      - 'Everyone'
+    permissions: []
+  Moderators:
+    default: false
+    info:
+      prefix: '&1'
+      suffix: ''
+      build: true
+    inheritance:
+      - 'Regulars'
+    permissions: []
+  Administrators:
+    default: false
+    info:
+      prefix: '&4'
+      suffix: ''
+      build: true
+    inheritance:
+      - 'Moderators'
+    permissions:
+      - '*'
+      - 'worldguard.*'
+      - 'worldedit.*'
+      - '-essentials.joinfullserver'
+      - 'bukkit.command.*'
