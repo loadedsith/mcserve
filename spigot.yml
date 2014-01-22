@@ -12,60 +12,40 @@
 
 config-version: 5
 commands:
-  tab-complete: true
   replace-commands:
   - setblock
   - summon
   - testforblock
+  tab-complete: true
   log: true
   spam-exclusions:
   - /skill
-settings:
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 3
-  late-bind: false
-  bungeecord: false
-  prevent-proxies: false
-  log-filters:
-  - ^(.*)(/login)(.*)$
-  bungeecord-addresses:
-  - 127.0.0.1
 messages:
-  restart: Server is restarting
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
 stats:
   disable-saving: false
   forced-stats: {}
+settings:
+  late-bind: false
+  bungeecord: false
+  netty-threads: 3
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  prevent-proxies: false
+  log-filters:
+  - ^(.*)(/login)(.*)$
+  bungeecord-addresses:
+  - 127.0.0.1
 world-settings:
   default:
     verbose: false
     view-distance: 6
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
     chunks-per-tick: 650
     clear-tick-list: false
     merge-radius:
@@ -73,9 +53,6 @@ world-settings:
       item: 2.5
     nerf-spawner-mobs: false
     mob-spawn-range: 4
-    zombie-aggressive-towards-villager: true
-    item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
@@ -99,6 +76,29 @@ world-settings:
       misc: 32
       other: 64
     save-structure-info: true
+    zombie-aggressive-towards-villager: true
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
 listeners:
 - port: default
   host: default

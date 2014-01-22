@@ -2,19 +2,29 @@ groups:
   Everyone:
     default: true
     info:
-      prefix: '&f'
+      prefix: '&f-'
       suffix: ''
       build: true
-    permissions: []
+    permissions:
+      - 'essentials.help'
+      - 'essentials.motd'
+      - 'essentials.players'
+      - 'essentials.version'
   Regulars:
     default: false
     info:
-      prefix: '&a'
+      prefix: '&a+'
       suffix: ''
       build: true
     inheritance:
       - 'Everyone'
-    permissions: []
+    permissions:
+      - 'bukkit.command.ban'
+      - 'bukkit.command.tpa'
+      - 'bukkit.command.tp'
+      - 'bukkit.command.help'
+      - 'essentials.help'
+      - 'dynmap.marker.sign'
   Moderators:
     default: false
     info:
@@ -27,7 +37,7 @@ groups:
   Administrators:
     default: false
     info:
-      prefix: '&4'
+      prefix: '&a@'
       suffix: ''
       build: true
     inheritance:
@@ -39,3 +49,15 @@ groups:
       - '-essentials.joinfullserver'
       - 'bukkit.command.*'
       - 'essentials.setspawn'
+      - 'essentials.fly'
+      - 'essentials.*'
+      - 'dynmap.*'
+  Graham Colors:
+    default: false
+    info:
+      prefix: '&f@'
+      suffix: ''
+      build: true
+    inheritance:
+      - 'Moderators'
+    permissions: []

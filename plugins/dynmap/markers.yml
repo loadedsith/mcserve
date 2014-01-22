@@ -5,6 +5,35 @@ sets:
         circles: {
             }
         hide: false
+        markers:
+            _sign_Survival Island_-532_59_594:
+                icon: sign
+                markup: true
+                label: test
+                z: 594.5
+                world: Survival Island
+                y: 59.5
+                x: -531.5
+            _sign_Survival Island_482_74_-284:
+                icon: sign
+                markup: true
+                label: john believes <br/>graham to be a <br/>smelly asshole
+                z: -283.5
+                world: Survival Island
+                y: 74.5
+                x: 482.5
+        layerprio: 0
+        areas: {
+            }
+        deficon: default
+        lines: {
+            }
+        label: Markers
+        minzoom: 0
+    spawn_beds:
+        circles: {
+            }
+        hide: false
         markers: {
             }
         layerprio: 0
@@ -13,7 +42,7 @@ sets:
         deficon: default
         lines: {
             }
-        label: Markers
+        label: Spawn Beds
         minzoom: 0
 playersets: {
     }

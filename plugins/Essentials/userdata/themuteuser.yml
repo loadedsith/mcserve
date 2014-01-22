@@ -1,12 +1,19 @@
 timestamps:
-  login: 1389965135092
-  logout: 1389965182646
+  login: 1390353977878
+  logout: 1390363469137
 ipAddress: 99.30.13.102
 geolocation: United States
 logoutlocation:
   world: Survival Island
-  x: 491.8820560729772
-  y: 71.0
-  z: -267.5981973351681
-  yaw: 324.90427
-  pitch: 45.89996
+  x: 466.09169911496
+  y: 73.0
+  z: -272.30000001192093
+  yaw: -180.97375
+  pitch: 10.049799
+lastlocation:
+  world: Survival Island
+  x: -461.01311196962666
+  y: 69.0
+  z: 776.3808102011036
+  yaw: -162.45094
+  pitch: 24.750084

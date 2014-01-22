@@ -1,23 +1,27 @@
 timestamps:
-  login: 1389935123259
-  logout: 1389935462939
-  lastteleport: 1389934356025
+  login: 1390364841608
+  logout: 1390365105167
+  lastteleport: 1390364890016
+  kits:
+    tools: 1390359270116
+    color: 1390335650216
+    dtools: 1390360516450
 ipAddress: 67.184.70.2
 logoutlocation:
   world: Survival Island
-  x: -533.9443695701232
-  y: 58.0
-  z: 598.3087990008761
-  yaw: -228.45052
-  pitch: -4.199982
+  x: 1513.699999988079
+  y: 11.0
+  z: 2051.5880131494696
+  yaw: -205.94522
+  pitch: -84.59999
 afk: false
 lastlocation:
   world: Survival Island
-  x: 202.76007133744722
-  y: 66.0
-  z: -304.03823863325204
-  yaw: -327.60043
-  pitch: 21.450006
+  x: -512.4353952042525
+  y: 76.0
+  z: 175.42104816065049
+  yaw: -9.295328
+  pitch: 68.25
 homes:
   home:
     world: Survival Island
@@ -26,3 +30,17 @@ homes:
     z: 599.5
     yaw: -7.200603
     pitch: 17.099985
+  swamp:
+    world: Survival Island
+    x: -532.5
+    y: 58.0
+    z: 599.5
+    yaw: -7.200603
+    pitch: 17.099985
+  default:
+    world: Survival Island
+    x: -532.6684981804823
+    y: 58.0
+    z: 598.1732619404197
+    yaw: 61.650013
+    pitch: 11.7

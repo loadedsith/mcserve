@@ -2,10 +2,14 @@ groups:
   Everyone:
     default: true
     info:
-      prefix: '&f'
+      prefix: '&f-'
       suffix: ''
       build: true
-    permissions: []
+    permissions:
+      - 'essentials.help'
+      - 'essentials.motd'
+      - 'essentials.players'
+      - 'essentials.version'
   Moderators:
     default: false
     info:
@@ -14,4 +18,13 @@ groups:
       build: true
     inheritance:
       - 'Regulars'
+    permissions: []
+  Graham Colors:
+    default: false
+    info:
+      prefix: '&f@'
+      suffix: ''
+      build: true
+    inheritance:
+      - 'Moderators'
     permissions: []

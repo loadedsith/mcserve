@@ -25,7 +25,7 @@ users:
       build: true
     permissions: []
   loadedsith:
-    group: 'Regulars'
+    group: 'Graham Colors'
     info:
       build: true
     permissions: []

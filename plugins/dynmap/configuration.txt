@@ -71,8 +71,8 @@ components:
   # Note: this component is needed for the dmarker commands, and for the Marker API to be available to other plugins
   - class: org.dynmap.MarkersComponent
     type: markers
-    showlabel: false
-    enablesigns: false
+    showlabel: true
+    enablesigns: true
     # (optional) add spawn point markers to standard marker layer
     showspawn: true
     spawnicon: world
@@ -85,10 +85,10 @@ components:
     offlineminzoom: 0
     maxofflinetime: 30
     # (optional) layer for showing player's spawn beds
-    showspawnbeds: false
+    showspawnbeds: true
     spawnbedlabel: "Spawn Beds"
     spawnbedicon: bed
-    spawnbedhidebydefault: true
+    spawnbedhidebydefault: false
     spawnbedminzoom: 0
     spawnbedformat: "%name%'s bed"
     
@@ -103,17 +103,17 @@ components:
     showplayerfaces: true
     messagettl: 5
     # Optional: set number of lines in scrollable message history: if set, messagettl is not used to age out messages
-    #scrollback: 100
+    scrollback: 100
     # Optiona; set maximum number of lines visible for chatbox
-    #visiblelines: 10
+    visiblelines: 10
     # Optional: send push button
-    sendbutton: false
+    sendbutton: true
   - class: org.dynmap.ClientComponent
     type: playermarkers
     showplayerfaces: true
     showplayerhealth: true
     # If true, show player body too (only valid if showplayerfaces=true
-    showplayerbody: false
+    showplayerbody: true
     # Option to make player faces small - don't use with showplayerhealth
     smallplayerfaces: false
     # Optional - make player faces layer hidden by default
@@ -131,7 +131,7 @@ components:
   - class: org.dynmap.ClientComponent
     type: timeofdayclock
     showdigitalclock: true
-    #showweather: true
+    showweather: true
   # Mouse pointer world coordinate display
   - class: org.dynmap.ClientComponent
     type: coord
@@ -140,13 +140,13 @@ components:
     show-mcr: false
     
   # Note: more than one logo component can be defined
-  #- class: org.dynmap.ClientComponent
-  #  type: logo
-  #  text: "Dynmap"
-  #  #logourl: "images/block_surface.png"
-  #  linkurl: "http://forums.bukkit.org/threads/dynmap.489/"
-  #  # Valid positions: top-left, top-right, bottom-left, bottom-right
-  #  position: bottom-right
+ #  - class: org.dynmap.ClientComponent
+ #   type: logo
+ #   text: "Maps.bygph.com"
+ #   #logourl: "images/block_surface.png"
+ #   linkurl: "http://forums.bukkit.org/threads/dynmap.489/"
+ #   # Valid positions: top-left, top-right, bottom-left, bottom-right
+ #   position: bottom-right
 
   #- class: org.dynmap.ClientComponent
   #  type: inactive
